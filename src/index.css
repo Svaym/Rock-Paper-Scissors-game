@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@layer base {
+  body {
+    @apply font-semibold font-barlow overflow-x-hidden h-screen bg-gradient-to-b from-blue-950 to-slate-900
+  }
+}

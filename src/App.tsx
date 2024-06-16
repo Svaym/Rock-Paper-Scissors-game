@@ -1,11 +1,14 @@
 import { FC } from "react"
+import Header from "./components/Header/Header"
+import Game from "./components/Game/Game"
+import Footer from "./components/Footer/Footer"
 
 const App: FC = () => {
   return (
     <>
-      <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+      <Header />
+      <Game />
+      <Footer />
     </>
   )
 }
