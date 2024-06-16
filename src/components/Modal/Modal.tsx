@@ -1,4 +1,4 @@
-import React, { FC } from 'react'
+import { FC } from 'react'
 import rules from '../../assets/image-rules.svg'
 import closeImg from '../../assets/icon-close.svg'
 import { useAppDispatch } from '../Redux/hooks/useAppDispatch'

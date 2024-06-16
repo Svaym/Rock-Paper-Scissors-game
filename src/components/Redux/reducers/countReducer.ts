@@ -1,4 +1,4 @@
-import { RootState } from "@reduxjs/toolkit/query";
+import { RootState } from "../store";
 import { createSlice } from "@reduxjs/toolkit";
 
 export interface CountState {

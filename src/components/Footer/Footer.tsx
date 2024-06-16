@@ -1,4 +1,4 @@
-import React, { FC } from 'react'
+import { FC } from 'react'
 import Modal from '../Modal/Modal'
 import { useAppDispatch } from '../Redux/hooks/useAppDispatch'
 import { useAppSelector } from '../Redux/hooks/useAppSelector'
